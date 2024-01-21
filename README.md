@@ -11,5 +11,4 @@
 
 <h2>Project Demo:</h2>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/atique-shahriar/Legal-Solution-Using-DaisyUL-TailwindCSS/main/Legal%20Solution.png
-        " alt="project-screenshot" width="100%" height="100%"></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/atique-shahriar/Legal-Solution-Using-DaisyUL-TailwindCSS/main/Legal%20Solution.png" alt="project-screenshot" width="100%" height="100%"></div>
