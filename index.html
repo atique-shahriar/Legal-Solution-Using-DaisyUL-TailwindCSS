@@ -355,9 +355,9 @@
             <h2 class="text-4xl font-extrabold font-[eb-garamond] text-center">Contact With Us</h2>
             <p class="mt-6 mb-16 text-center px-10 lg:px-40">There are many variations of passages of Lorem Ipsum
                 available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <div>
-                <div class="grid grid-cols-2 w-1/2">
-                    <div class="text-center p-16 space-y-2 bg-slate-100 border-b border-r">
+            <div class="flex gap-6 lg:gap-[3%] flex-col lg:flex-row items-center">
+                <div class="grid grid-cols-2 w-full lg:w-1/2">
+                    <div class="text-center py-16 px-10 space-y-2 bg-slate-100 border-b border-r">
                         <div class="flex justify-center items-center">
                             <img src="images/location.png" alt="">
                         </div>
@@ -365,7 +365,7 @@
                         <p>A108 Adam Street,<br>
                             New York, NY 535022</p>
                     </div>
-                    <div class="text-center p-16 space-y-2 bg-slate-100 border-b">
+                    <div class="text-center py-16 px-10 space-y-2 bg-slate-100 border-b">
                         <div class="flex justify-center items-center">
                             <img src="images/call.png" alt="">
                         </div>
@@ -373,7 +373,7 @@
                         <p>+88 01750 00 00 00 <br>
                             +88 01750 00 00 00</p>
                     </div>
-                    <div class="text-center p-16 space-y-2 bg-slate-100 border-r">
+                    <div class="text-center py-16 px-10 space-y-2 bg-slate-100 border-r">
                         <div class="flex justify-center items-center">
                             <img src="images/email.png" alt="">
                         </div>
@@ -381,7 +381,7 @@
                         <p>info@gmail.com <br>
                             info@gmail.com</p>
                     </div>
-                    <div class="text-center p-16 space-y-2 bg-slate-100">
+                    <div class="text-center py-16 px-10 space-y-2 bg-slate-100">
                         <div class="flex justify-center items-center">
                             <img src="images/time.png" alt="">
                         </div>
@@ -390,8 +390,15 @@
                             Sunday: 9AM to 1 PM</p>
                     </div>
                 </div>
-                <div class="w-1/2">
-
+                <div class="w-full lg:w-1/2">
+                    <div class="flex flex-col space-y-8">
+                        <input type="text" placeholder="Your Name" class="bg-slate-100 w-full pl-6 h-16 rounded-md ">
+                        <input type="email" placeholder="Your Email" class="bg-slate-100 w-full pl-6 h-16 rounded-md">
+                        <input type="text" placeholder="Subject" class="bg-slate-100 w-full pl-6 h-16 rounded-md">
+                        <input type="text" placeholder="Your Message" class="bg-slate-100 w-full pl-6 h-40 rounded-md">
+                        <input type="Submit" value="Send Message"
+                            class=" rounded-md bg-btncolor text-white text-[18px] font-semibold h-16 w-full">
+                    </div>
                 </div>
             </div>
         </section>
