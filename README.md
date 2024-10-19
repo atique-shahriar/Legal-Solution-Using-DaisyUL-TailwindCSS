@@ -12,6 +12,6 @@
 <h2>Project Demo:</h2>
 
 <div style="text-align:center">
-    <img src="https://raw.githubusercontent.com/atiqueshahriarr/Legal-Solution-Landing-Page/main/Legal%20Solution.png"
+    <img src="https://github.com/atiqueshahriarr/Legal-Solution-Landing-Page/blob/main/Legal%20Solution.png?raw=true"
         alt="project-screenshot" width="100%" height="100%">
 </div>
